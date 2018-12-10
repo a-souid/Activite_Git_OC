@@ -18,7 +18,7 @@ let count =0;
 		document.getElementById("nbre").value ="";
 		//console.log(nbreSaisi);
 		
-				
+				// ici on test si nbre saisi est plus grand que la solution à trouver
 					if (nbreSaisi > solution) {
 						document.getElementById("demo").innerHTML = `Le nombre saisi : ${nbreSaisi} est plus grand vasy essaye encore ! `;
 						console.log(`Le nombre saisi : ${nbreSaisi} est plus grand vasy essaye encore ! `);
